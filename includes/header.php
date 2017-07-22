@@ -1,0 +1,41 @@
+<?php include './config/config.php' ?>           
+<?php include './libraries/database.php' ?>           
+<?php include './helpers/format_helper.php'; ?> 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>PHPLoversBlog Posts</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/custom.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="blog-masthead">
+            <nav class="blog-nav">
+                <div class="container">
+                    <a class="blog-nav-item active" href="index.php">Home</a>
+                    <a class="blog-nav-item" href="posts.php">All Posts</a>
+                </div>
+            </nav>
+        </div>   
+
+
+        <div class="container">
+            <div class="blog-header">
+                <div  class="logo"><img src="img/logo.png"/></div>
+                <h1 class="blog-title">PHP Lovers Blog</h1>
+                <p class="lead blog-description">PHP News, Tutorials, videos & more</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-8 blog-main">
